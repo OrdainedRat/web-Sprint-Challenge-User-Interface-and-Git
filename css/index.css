@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 1px solid black;*/
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -82,7 +82,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    margin-top: 2.3%;  
 }
 
 .middle-content {
@@ -143,4 +144,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*/////////////////////////////////////////////////My Styles/////////////////////*/
+header{
+    margin-top: 3.3%;
+}
+.flexer{
+    display: flex;
+    margin-bottom: 2%;
+}
+.logo{
+    margin-right: 5%;
+}
+.navi{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 2.5%;
+    
+}
+ header a{
+    text-decoration: none;
+    color: black;
+}
+/*////////////////////////////////////////About Styles//////////////////*/
+.one{
+    padding:3%;
+    border-bottom: black dotted 1px;
+    margin-bottom: 4%;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main div{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    border-bottom: dotted 1px black;
+    padding-bottom: 3%;
+    }
+.main p{
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+.main h2{
+    margin-top: 15px;
+}
+.third, .fourth{
+    margin-top: 7%;
+}
+button{
+    background-color: #fff;
+    width: 33%;
+    height: 4vh;
+    border-radius: 10px;
+}
+.end{
+    margin: 5% 0;
 }
