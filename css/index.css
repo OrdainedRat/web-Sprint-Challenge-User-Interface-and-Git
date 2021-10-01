@@ -224,6 +224,10 @@ button{
     height: 4vh;
     border-radius: 10px;
 }
+button:hover{
+    background-color: black;
+    color: white;
+}
 .end{
     margin: 5% 0;
 }
